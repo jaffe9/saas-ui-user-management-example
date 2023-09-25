@@ -27,6 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+        <title>J SAAS UI</title>
+        <meta name='J SAAS UI' content='Description' />
+      </head>
       <body className={inter.className}>
         <SaasProvider linkComponent={Link}>
         <AppShell
